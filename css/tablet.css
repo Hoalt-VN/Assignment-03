@@ -1,0 +1,60 @@
+@media screen and (max-width: 992px) {
+  /* PHẦN ĐIỀU HƯỚNG */
+  .nav-img {
+    display: none;
+  }
+  .nav-item {
+    font-size: smaller;
+  }
+
+  /* THÔNG TIN & MỤC TIÊU */
+  #about > .container {
+    text-align: start;
+    margin: 20px auto;
+    padding: 0;
+  }
+
+  /* PHẦN THÔNG TIN NGHỀ NGHIẸP */
+
+  #job-info > .job-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .button {
+    font-size: smaller;
+  }
+  /* .job-info h1 {
+    font-size: 100%;
+  } */
+
+  /* CHỨNG CHỈ & GIẢI THƯỞNG */
+
+  .chung-chi-1,
+  .chung-chi-2,
+  .chung-chi-3 {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  .chung-chi img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  /* PHAN DU AN */
+  .time-project {
+    display: block;
+    padding: 0;
+    width: auto;
+    height: auto;
+  }
+
+  #project > .container {
+    font-size: smaller;
+    width: 100%;
+    height: auto;
+    gap: 2px;
+  }
+}
